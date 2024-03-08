@@ -10,7 +10,7 @@ import headerBlob from "./header-blob2-01.svg";
  * A Static Header for the site
  * @returns a header component
  */
-export default function Header({showDescription}) {
+export default function Header({ showDescription }: { showDescription?: boolean }) {
 	return (
 		<>
 			<header className={ styles.header }>
