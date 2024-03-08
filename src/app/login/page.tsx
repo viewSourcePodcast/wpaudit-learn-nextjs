@@ -6,7 +6,7 @@ import * as styles from "./style.css";
 export default function LoginPage() {
 	return (
 		<>
-			<Header />
+			<Header showDescription={false}/>
 			<div className={styles.loginContainer}>
 				<form className={styles.form}>
 					<label className={styles.label} htmlFor="email">

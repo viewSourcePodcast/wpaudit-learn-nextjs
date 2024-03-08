@@ -10,7 +10,7 @@ import headerBlob from "./header-blob2-01.svg";
  * A Static Header for the site
  * @returns a header component
  */
-export default function Header() {
+export default function Header({showDescription}) {
 	return (
 		<>
 			<header className={ styles.header }>
@@ -20,6 +20,8 @@ export default function Header() {
 						<Image src={logo} alt="WP Audit Site" className={styles.titleImg} />
 					</Link>
 				</h1>
+				{ showDescription && (
+					<>
 				<h2>Quickly audit your WordPress website.</h2>
 				<p>
 					A helpful checklist to audit your website for formatting, WordPress
@@ -28,8 +30,9 @@ export default function Header() {
 				<p>Best used before a launch or on a schedule.</p>
 				<ButtonLink href="https://wphelpers.dev">
 					Other Helpful WordPress Resources
-				</ButtonLink>
-
+						</ButtonLink>
+						</>
+				) }
 			</header>
 			<Image priority={true} src={headerBlob} alt="" className={styles.headerBlob} />
 		</>
