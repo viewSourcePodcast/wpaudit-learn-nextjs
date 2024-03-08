@@ -7,7 +7,7 @@ import { cookies } from "next/headers";
 import * as styles from "./style.css";
 import Link from "next/link";
 
-async function checklists(user) {
+async function checklists(user: any) {
 	// get the checklist from the supabase database for the user from the audit table
 	const cookieStore = cookies();
 	const supabase = createClient(cookieStore);
