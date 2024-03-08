@@ -67,7 +67,7 @@ export default function AuditItem({
 	const titleAttribute = title.toLowerCase().replace(/\s/g, "-");
 	return (
 		<article data-title={titleAttribute} className={styles.listItem}>
-			{isSaving && <div className={styles.saving}>Saving...</div>}
+			{isSaving && <div>Saving...</div>}
 			<input
 				className={styles.checkBox}
 				type="checkbox"
