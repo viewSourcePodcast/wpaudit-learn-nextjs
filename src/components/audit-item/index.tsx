@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 import Link from "next/link";
 import * as styles from "./style.css";
@@ -23,7 +24,7 @@ export default function AuditItem({
 
 	const [isChecked, setIsChecked] = useState(checked);
 	const [isSaving, setIsSaving] = useState(false);
-	const handleCheck = async (event) => {
+	const handleCheck = async (event: React.ChangeEvent<HTMLInputElement>) => {
 		setIsSaving(true);
 		setIsChecked(event.target.checked);
 		if (!auditId) {

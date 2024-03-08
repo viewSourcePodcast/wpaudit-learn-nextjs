@@ -10,7 +10,7 @@ import AuditList from "@/components/audit-list";
 
 export const revalidate = 2
 
-async function Checklist({ user, auditId }: { user: any, auditId: Number }) {
+async function Checklist({ user, auditId }: { user: any, auditId: string  }) {
 	// get the checklist from the supabase database for the user from the audit table
 	const cookieStore = cookies();
 	const supabase = createClient(cookieStore);
@@ -29,7 +29,7 @@ async function Checklist({ user, auditId }: { user: any, auditId: Number }) {
 	);
 }
 
-export default async function Audit({ params }) {
+export default async function Audit({ params } : { params: { auditId: string[] } }) {
 	const {
 		auditId: [audit],
 	} = params;

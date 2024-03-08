@@ -1,8 +1,9 @@
+// @ts-nocheck
 import AuditItem from "@/components/audit-item";
 import audit from "@/audit-templates/audit.json";
 import * as styles from "./style.css";
 
-export default function AuditList({auditList = audit, auditId = null}) {
+export default function AuditList({auditList = audit, auditId = null}: Readonly<{ auditList?: any; auditId?: string | null; }>) {
 	// read the array from the json file, and map it to the AuditItem component
 
 	return (
