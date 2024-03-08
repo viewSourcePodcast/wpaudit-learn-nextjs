@@ -1,0 +1,608 @@
+[
+	{
+		"id": 1,
+		"checked": false,
+		"checklistTitle": "Declare your website language",
+		"checklistDescription": "Make sure language_attributes() is set in HTML. This helps translation tools know what language your website is in, Google uses it to better rank your website, and it's helpful for folks using screen readers too.",
+		"resources": [
+			{
+				"title": "language attributes",
+				"link": "https://developer.wordpress.org/reference/functions/language_attributes/"
+			},
+			{
+				"title": "Change HTML Lang",
+				"link": "https://wordpress.org/plugins/chl-change-html-lang/"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"checked": false,
+		"checklistTitle": "SEO",
+		"checklistDescription": "Install an SEO plugin to make it easy to maintain and modify SEO information. Make sure you fill out all the open graph information and basic title, description, and image fields. Consider using one of the following plugins:",
+		"resources": [
+			{
+				"title": "Yoast SEO",
+				"link": "https://en-ca.wordpress.org/plugins/wordpress-seo/"
+			},
+			{
+				"title": "All in one SEO",
+				"link": "https://en-ca.wordpress.org/plugins/all-in-one-seo-pack/"
+			},
+			{
+				"title": "The SEO Framework",
+				"link": "https://en-ca.wordpress.org/plugins/autodescription/"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"checked": false,
+		"checklistTitle": "Check yo meta tags",
+		"checklistDescription": "If you've got an SEO plugin installed and properly configured, you should be fine, but double check those tags with the meta tag checker and adjust accordingly.",
+		"resources": [
+			{ "title": "Hey Meta", "link": "https://www.heymeta.com/" },
+			{
+				"title": "Facebook debugger",
+				"link": "https://developers.facebook.com/tools/debug/sharing/"
+			},
+			{
+				"title": "Twitter Card Validator",
+				"link": "https://cards-dev.twitter.com/validator"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"checked": false,
+		"checklistTitle": "Links check",
+		"checklistDescription": "Make sure you don't have any broken links lingering on the site. A common culprit is changing slugs after a post has been published. Although WordPress auto-magically can catch a few of those, it's helpful to have a plugin that does even more:",
+		"resources": [
+			{
+				"title": "Redirection",
+				"link": "https://en-ca.wordpress.org/plugins/redirection/"
+			},
+			{
+				"title": "W3C Link Checker",
+				"link": "https://validator.w3.org/checklink"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"checked": false,
+		"checklistTitle": "Favicon",
+		"checklistDescription": "Is your favicon set? Go to Appearance > Customize > Site Identity and set that Site Icon. It'll take care of your favicon and the app icon (in case someone saves your site to their iPhone/Android screen!).",
+		"resources": [
+			{
+				"title": "Step by step directions",
+				"link": "https://wordpress.org/support/article/creating-a-favicon/"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"checked": false,
+		"checklistTitle": "Responsive design",
+		"checklistDescription": "Is your website responsive? It should be responsive! Use CSS Media queries in your code, make sure zoom is not disabled, and test your site in responsive mode with your browser Developer Tools",
+		"resources": [
+			{
+				"title": "Responsive Web Design",
+				"link": "https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/"
+			},
+			{
+				"title": "CSS Media Queries",
+				"link": "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"
+			},
+			{
+				"title": "Test your site",
+				"link": "https://search.google.com/test/mobile-friendly"
+			},
+			{
+				"title": "Don't Disable Zoom",
+				"link": "https://adrianroselli.com/2015/10/dont-disable-zoom.html"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"checked": false,
+		"checklistTitle": "Encourage search engines to index the site",
+		"checklistDescription": "Did you turn off that setting WordPress General settings that discourages search engines to index the site? Not sure? Better double check!",
+		"resources": [
+			{
+				"title": "Discourage Search Engines from Indexing This Site: What It Means and How to Use It",
+				"link": "https://kinsta.com/blog/discourage-search-engines-from-indexing-this-site/"
+			},
+			{
+				"title": "Better alternatives to “Discourage search engines” in WordPress",
+				"link": "https://wpshout.com/better-alternatives-discourage-search-engines-wordpress/"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"checked": false,
+		"checklistTitle": "GZip Compression",
+		"checklistDescription": "Is your website using Gzip compression? Gzip is a way of smartly compressing data so your website loads faster. Modern browsers automatically request the Gzip version of your website first.",
+		"resources": [
+			{
+				"title": "Gzip Compression checker",
+				"link": "https://www.giftofspeed.com/gzip-test/"
+			},
+			{
+				"title": "How To Easily Enable Gzip Compression For WordPress",
+				"link": "https://torquemag.io/2016/04/enable-gzip-compression-wordpress/"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"checked": false,
+		"checklistTitle": "Valid HTML",
+		"checklistDescription": "Run your code through the HTML validator and make sure there aren't any glaring errors. Sometimes there will be errors you don't want to fix, and that's okay. Just be sure you're being intentional.",
+		"resources": [
+			{
+				"title": " Markup Validation Service",
+				"link": "https://validator.w3.org/"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"checked": false,
+		"checklistTitle": "Tiny tiny images",
+		"checklistDescription": "Optimizing your images, making sure they are as compressed as possible, and lazy loaded when appropriate makes a huge difference for your website speed.",
+		"resources": [
+			{
+				"title": "WebP Image Support in WordPress 5.8+",
+				"link": "https://make.wordpress.org/core/2021/06/07/wordpress-5-8-adds-webp-support/"
+			},
+			{
+				"title": "WebP Express",
+				"link": "https://wordpress.org/plugins/webp-express/"
+			},
+			{
+				"title": "Autoptimizer",
+				"link": "https://en-ca.wordpress.org/plugins/autoptimize/"
+			},
+			{ "title": "Compress PNG", "link": "https://compresspng.com/" },
+			{ "title": "TinyPNG", "link": "https://tinypng.com/" },
+			{ "title": "ImageOptim", "link": "https://imageoptim.com/mac" }
+		]
+	},
+	{
+		"id": 11,
+		"checked": false,
+		"checklistTitle": "Webfonts Optimization",
+		"checklistDescription": "Loading your webfonts fast and well is important. Keep those font file sizes low, only add the font styles you are using, use preconnect to load those font files quicker, and avoid the Flash of Unstyled Text and Flash of Invisible Text.",
+		"resources": [
+			{
+				"title": "Preconnect fonts",
+				"link": "https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/"
+			},
+			{
+				"title": "WebFont Loader",
+				"link": "https://github.com/typekit/webfontloader"
+			}
+		]
+	},
+	{
+		"id": 12,
+		"checked": false,
+		"checklistTitle": "Cache your ish",
+		"checklistDescription": "You've heard it before and you'll hear it again. Use caching. There are lots of brilliant plugins out there that help. Great hosts usually provide caching of some kind as well, utilize that.",
+		"resources": [
+			{
+				"title": "Autoptomize",
+				"link": "https://en-ca.wordpress.org/plugins/autoptimize/"
+			},
+			{ "title": "WP Rocket", "link": "https://wp-rocket.me/" }
+		]
+	},
+	{
+		"id": 13,
+		"checked": false,
+		"checklistTitle": "CDN (distribute widely, y'all)",
+		"checklistDescription": "CDN = content delivery network. If you've got a big site or you want the fastest site possible, use a CDN. Your site will be cached all around the world and served to the viewer from the closest server.",
+		"resources": [
+			{
+				"title": "CloudFlare",
+				"link": "https://www.cloudflare.com/en-ca/integrations/wordpress/"
+			},
+			{ "title": "Key CDN", "link": "https://www.keycdn.com/" }
+		]
+	},
+	{
+		"id": 14,
+		"checked": false,
+		"checklistTitle": "Minimize HTTP requests",
+		"checklistDescription": "The more files you have and the bigger they are, the more HTTP requests you'll have. So minimize those files and get rid of anything unnecessary.",
+		"resources": [
+			{
+				"title": "How to Reduce HTTP Requests to Speed Up Your WordPress Site",
+				"link": "https://wp-rocket.me/blog/reduce-http-requests-speed-wordpress-site/"
+			}
+		]
+	},
+	{
+		"id": 15,
+		"checked": false,
+		"checklistTitle": "Run a Speed Test",
+		"checklistDescription": "Run your site through a speed test tool to check for any other glaring issues you may have missed.",
+		"resources": [
+			{ "title": "GTmetrix", "link": "http://gtmetrix.com/" },
+			{ "title": "Pingdom", "link": "https://tools.pingdom.com/" }
+		]
+	},
+	{
+		"id": 16,
+		"checked": false,
+		"checklistTitle": "Do ya have a sitemap?",
+		"checklistDescription": "If you configured an SEO plugin, you probably have one (or more). Go to yourdomain.com/sitemap.xml and make sure you have one!",
+		"resources": [
+			{
+				"title": "Sitemaps explained",
+				"link": "https://webaim.org/techniques/sitetools/#siteindex"
+			}
+		]
+	},
+	{
+		"id": 17,
+		"checked": false,
+		"checklistTitle": "404 Template",
+		"checklistDescription": "Make sure you have a useful 404 template.",
+		"resources": [
+			{
+				"title": "Guide to creating 404 pages",
+				"link": "https://developer.wordpress.org/themes/functionality/404-pages/"
+			}
+		]
+	},
+	{
+		"id": 18,
+		"checked": false,
+		"checklistTitle": "Search page",
+		"checklistDescription": "There's no standard search template in WordPress, but you should create one. The ideal slug is /search so if someone needs to do a search, they can get there.",
+		"resources": [
+			{
+				"title": "Creating a search page",
+				"link": "https://codex.wordpress.org/Creating_a_Search_Page"
+			},
+			{
+				"title": "A simple search results template guide",
+				"link": "https://themeshaper.com/2012/11/06/the-wordpress-theme-search-template-and-page-template/"
+			}
+		]
+	},
+	{
+		"id": 19,
+		"checked": false,
+		"checklistTitle": "Colour Contrast Check",
+		"checklistDescription": "Simplest way to do this is to add the following:",
+		"resources": [
+			{
+				"title": "High Contrast add-on",
+				"link": "https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph"
+			},
+			{
+				"title": "Colorblind Web Page Filter",
+				"link": "https://www.toptal.com/designers/colorfilter"
+			}
+		]
+	},
+	{
+		"id": 20,
+		"checked": false,
+		"checklistTitle": "Keyboard navigation",
+		"checklistDescription": "Can you tab through everything and take the actions you want to take on your website? If you can't, fix it!",
+		"resources": []
+	},
+	{
+		"id": 21,
+		"checked": false,
+		"checklistTitle": "Make those pseudo inputs accessible (those checkboxes and radios)!",
+		"checklistDescription": "Adding this specifically, because it's often overlooked. I know we all hate the default checkboxes and radio buttons. It's totally okay to use pseudo classes to style a fancier version, but let's make sure they are keyboard accessible, yeah?",
+		"resources": [
+			{
+				"title": "Create custom accessible checkboxes",
+				"link": "https://dev.to/lkopacz/create-custom-keyboard-accessible-checkboxes-2036/"
+			},
+			{
+				"title": "radio buttons too",
+				"link": "https://dev.to/lkopacz/create-custom-keyboard-accessible-radio-buttons-22eh"
+			}
+		]
+	},
+	{
+		"id": 22,
+		"checked": false,
+		"checklistTitle": "Do them links look like links?",
+		"checklistDescription": "Yes, you can use borders instead of text-decoration: underline;.",
+		"resources": [
+			{
+				"title": "Underlines are beautiful",
+				"link": "https://adrianroselli.com/2019/01/underlines-are-beautiful.html"
+			}
+		]
+	},
+	{
+		"id": 23,
+		"checked": false,
+		"checklistTitle": "Skip to content link, please!",
+		"checklistDescription": "Make sure you have a skip to content link that shows up when that link comes into focus.",
+		"resources": [
+			{
+				"title": "Skip to content techniques",
+				"link": "https://webaim.org/techniques/skipnav/"
+			}
+		]
+	},
+	{
+		"id": 24,
+		"checked": false,
+		"checklistTitle": "Alt text, pretty please.",
+		"checklistDescription": "Make sure your images have alt attributes with helpful descriptions and maybe some context too.",
+		"resources": [
+			{
+				"title": "Alt Attribute checker",
+				"link": "https://www.seoptimer.com/alt-tag-checker"
+			}
+		]
+	},
+	{
+		"id": 25,
+		"checked": false,
+		"checklistTitle": "Do you have an Accessibility Statement? (and is it current?)",
+		"checklistDescription": "Typically found in the footer, an accessibility statement is a fantastic way to communicate how folks can  get help if they have problems using your site.",
+		"resources": [
+			{
+				"title": "The What, Why, and How of Accessibility Statements",
+				"link": "https://theadminbar.com/accessibility-weekly/the-what-why-and-how-of-accessibility-statements/"
+			},
+			{
+				"title": "Developing an Accessibility Statement",
+				"link": "https://www.w3.org/WAI/planning/statements/"
+			},
+			{
+				"title": "VPATs and ACRs",
+				"link": "https://www.itic.org/policy/accessibility/vpat"
+			}
+		]
+	},
+	{
+		"id": 26,
+		"checked": false,
+		"checklistTitle": "Run a Lighthouse check",
+		"checklistDescription": "Lighthouse is Google's website checking tool; it tests performance, accessibility, etc. It's built into Chrome, if you don't use Chrome, PageSpeed Insights is Lighthouse in a Web UI.",
+		"resources": [
+			{
+				"title": "Lighthouse",
+				"link": "https://developers.google.com/web/tools/lighthouse"
+			},
+			{
+				"title": "PageSpeed Insights",
+				"link": "https://developers.google.com/speed/pagespeed/insights/"
+			}
+		]
+	},
+	{
+		"id": 27,
+		"checked": false,
+		"checklistTitle": "Double check WordPress account email deliverability",
+		"checklistDescription": "If you forget your password, does your website correctly send the Rest your Password email? If you register a new user, does the website properly send the new user an email?",
+		"resources": [
+			{
+				"title": "WordPress not Sending Emails? 2 Easy Ways to Improve Deliverability",
+				"link": "https://www.mailpoet.com/blog/wordpress-not-sending-email-fix"
+			}
+		]
+	},
+	{
+		"id": 28,
+		"checked": false,
+		"checklistTitle": "Make sure your forms are a-workin'",
+		"checklistDescription": "Are your forms properly capturing and submitting? Different plugins and themes can sometimes create bugs and conflicts that prevent forms from working. It happens more than you know. Make sure your getting the submissions from your users!",
+		"resources": [
+			{
+				"title": "A Checklist for Web Form Testing",
+				"link": "https://www.qed42.com/insights/coe/quality-assurance/checklist-web-form-testing"
+			},
+			{
+				"title": "WP Forms: Complete Form Testing Checklist (Prevent Errors + Lost Entries)",
+				"link": "https://wpforms.com/form-testing-checklist/"
+			}
+		]
+	},
+	{
+		"id": 29,
+		"checked": false,
+		"checklistTitle": "Get that traffic info (without breaking the law)",
+		"checklistDescription": "Every site should have website analytics turned on. Did you remember to add that to the site now that it's going live? Remember to assess what analytics tool is right the website and what other considerations you need to take into account so the website isn't breaking the law.",
+		"resources": [
+			{
+				"title": "Fathom Analytics",
+				"link": "https://usefathom.com/ref/7J183M"
+			},
+			{
+				"title": "GDPR compliant",
+				"link": "https://www.godaddy.com/garage/practical-steps-for-website-gdpr-compliance/"
+			},
+			{
+				"title": "Google Analytics",
+				"link": "https://analytics.google.com/analytics/web/"
+			},
+			{
+				"title": "now considered illegal in some places",
+				"link": "https://www.wired.com/story/google-analytics-europe-austria-privacy-shield/"
+			}
+		]
+	},
+	{
+		"id": 30,
+		"checked": false,
+		"checklistTitle": "Tell us what you're tracking and why",
+		"checklistDescription": "A lot of countries require websites to have privacy policies under various conditions. It's also just a good practice to have a place where you let people know how/why you are using your data and what they can do about it.",
+		"resources": [
+			{
+				"title": "How to Add a Privacy Policy in WordPress",
+				"link": "https://www.wpbeginner.com/beginners-guide/how-to-add-a-privacy-policy-in-wordpress/"
+			},
+			{
+				"title": "Automattic's Privacy Policy",
+				"link": "https://automattic.com/privacy/"
+			},
+			{
+				"title": "A Privacy Policy for your Website",
+				"link": "https://www.ionos.ca/digitalguide/websites/digital-law/gain-users-confidence-with-a-privacy-policy/"
+			}
+		]
+	},
+	{
+		"id": 31,
+		"checked": false,
+		"checklistTitle": "Did ya set up search tracking?",
+		"checklistDescription": "Using a tool to track your searchability is always a great idea. It's handy to know what keywords and phrases are leading people to your website. Combined with a good analytics tool, this gives you a lot of helpful data.",
+		"resources": [
+			{
+				"title": "Google Search Console",
+				"link": "https://search.google.com/search-console/about"
+			},
+			{ "title": "Ahrefs", "link": "https://ahrefs.com/" }
+		]
+	},
+	{
+		"id": 32,
+		"checked": false,
+		"checklistTitle": "Consider using local fonts instead of externally hosted ones",
+		"checklistDescription": "Recently, Google Fonts was deemed illegal to use in a Germany court, because every time you load a font from Google Fonts, your website sends the IP address of your visitor back to Google without their explicit consent. This applies to any fonts you have hosted elsewhere (Typekit, etc). Consider locally hosting your fonts to avoid the situation entirely.",
+		"resources": [
+			{
+				"title": "Custom Fonts plugin",
+				"link": "https://wordpress.org/plugins/custom-fonts/"
+			},
+			{
+				"title": "In-Depth Guide on Hosting Local Fonts in WordPress",
+				"link": "https://kinsta.com/blog/local-fonts/"
+			},
+			{
+				"title": "Self-hosted fonts vs. Google Fonts API",
+				"link": "https://blog.logrocket.com/self-hosted-fonts-vs-google-fonts-api/"
+			}
+		]
+	},
+	{
+		"id": 33,
+		"checked": false,
+		"checklistTitle": "SSL: Secure yer site!",
+		"checklistDescription": "Let's Encrypt exists! It's free! If your host doesn't support it, change hosts.",
+		"resources": [
+			{
+				"title": "SSL Explained",
+				"link": "https://www.ssl.com/faqs/faq-what-is-ssl/"
+			},
+			{
+				"title": "About Let's Encrypt SSL",
+				"link": "https://letsencrypt.org/about/"
+			}
+		]
+	},
+	{
+		"id": 34,
+		"checked": false,
+		"checklistTitle": "Regular backups",
+		"checklistDescription": "You should have regular backups of your website and regular off-site backups of your website. Backups on your normal server won't be of any help to you if your server crashes.",
+		"resources": [
+			{
+				"title": "WordPress backup services",
+				"link": "https://www.wpbeginner.com/plugins/7-best-wordpress-backup-plugins-compared-pros-and-cons/"
+			},
+			{
+				"title": "Monthly website maintenance + support",
+				"link": "https://aurooba.com/website-support/"
+			}
+		]
+	},
+	{
+		"id": 35,
+		"checked": false,
+		"checklistTitle": "Are you on the latest and greatest WordPress version?",
+		"checklistDescription": "Keeping your WordPress installation updated is a big part of keeping your site safe!",
+		"resources": [
+			{
+				"title": "How to find your WordPress installation version",
+				"link": "https://hosting.review/ca/tutorial/check-wordpress-version/"
+			}
+		]
+	},
+	{
+		"id": 36,
+		"checked": false,
+		"checklistTitle": "No admin user.",
+		"checklistDescription": "Keep your site safe from a common brute force attack: don't use the username admin.",
+		"resources": [
+			{
+				"title": "Create new users on WordPress",
+				"link": "https://make.wordpress.org/support/user-manual/customizing-wordpress/managing-users-on-your-wordpress-site/adding-users-to-your-wordpress-site/"
+			}
+		]
+	},
+	{
+		"id": 37,
+		"checked": false,
+		"checklistTitle": "Delete inactive themes and plugins",
+		"checklistDescription": "Delete all themes you aren't using, except for one default (twenty *) theme; comes in handy when you're debugging weird issues. Get rid of any plugins you don't need!",
+		"resources": [
+			{
+				"title": "Delete WordPress themes",
+				"link": "https://kinsta.com/blog/wordpress-delete-theme/"
+			}
+		]
+	},
+	{
+		"id": 38,
+		"checked": false,
+		"checklistTitle": "Update themes and plugins",
+		"checklistDescription": "Keep all your themes and plugins updated. But make sure to backup first and ideally test your updates on a staging server first.",
+		"resources": []
+	},
+	{
+		"id": 39,
+		"checked": false,
+		"checklistTitle": "Use Strong Passwords ",
+		"checklistDescription": "Use strong passwords! Advise your clients to use strong passwords too!",
+		"resources": []
+	},
+	{
+		"id": 40,
+		"checked": false,
+		"checklistTitle": "Limit Login Attempts",
+		"checklistDescription": "Super helpful, can stop lots of attacks in their tracks.",
+		"resources": [
+			{
+				"title": "Limit login attempts plugin",
+				"link": "https://wordpress.org/plugins/limit-login-attempts-reloaded/"
+			}
+		]
+	},
+	{
+		"id": 41,
+		"checked": false,
+		"checklistTitle": "Consider a general security plugin",
+		"checklistDescription": "Depending on the complexity and sensitivity of your website, you may want to consider using a security plugin.",
+		"resources": [
+			{
+				"title": "iThemes Security",
+				"link": "https://en-ca.wordpress.org/plugins/better-wp-security/"
+			},
+			{
+				"title": "WordFence Security",
+				"link": "https://en-ca.wordpress.org/plugins/wordfence/"
+			},
+			{
+				"title": "Sucuri Security",
+				"link": "https://en-ca.wordpress.org/plugins/sucuri-scanner/"
+			}
+		]
+	}
+]
